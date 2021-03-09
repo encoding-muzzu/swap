@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <script src="https://instant.0x.org/v3/instant.js"></script>
+        <style>
+            .jkfrfk.jkfrfk {
+                color:blue;
+            }
+            .bTWfhe.bTWfhe {
+                background-color:green;
+            }
+            .ant-btn-primary {
+                background:green !important;
+            }
+            </style>
+    </head>
+    <body>
+        <script>
+            zeroExInstant.render({
+                orderSource: 'https://api.0x.org/sra/',
+                }, 'body');
+        </script>
+
+
+<script>
+    const config = {
+      sourceAssetAddress: null,
+      sourceAmountDecimal: null,
+      destinationAssetAddress: null,
+      destinationAmountDecimal: null,
+      apiKey: null,
+      partnerContractAddress: null,
+    };
+    const nodeId = 'totle-widget';
+    !function(){const t=document.createElement("script");t.type="text/javascript";const e=()=>{TotleWidget.default.run(config,document.getElementById(nodeId))};t.readyState?t.onreadystatechange=function(){"loaded"!=t.readyState&&"complete"!=t.readyState||(t.onreadystatechange=null,e())}:t.onload=function(){e()},t.src="https://widget.totle.com/latest/dist.js",document.getElementsByTagName("head")[0].appendChild(t)}();
+</script>
+<div id='totle-widget'></div>
+
+    </body>
+</html>
